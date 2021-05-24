@@ -28,6 +28,4 @@ jobs:
         run: |
           poetry update
           poetry install
-      - run: |
-          source $VENV
-          black . --check
+      - run: poetry run black . --check
