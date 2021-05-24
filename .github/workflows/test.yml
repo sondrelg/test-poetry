@@ -28,4 +28,3 @@ jobs:
         run: |
           poetry update
           poetry install
-      - run: poetry run black . --check
